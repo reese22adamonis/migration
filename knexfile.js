@@ -5,8 +5,11 @@ module.exports = {
   development: {
     client: 'pg',
     connection: {
-      databse: 'migrations'
+      database: 'migrations',
       host: '127.0.0.1'
+    },
+    seeds: {
+      directory: './seeds'
     }
   },
 
